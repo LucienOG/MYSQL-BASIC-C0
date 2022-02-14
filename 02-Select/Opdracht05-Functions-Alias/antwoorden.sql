@@ -18,11 +18,3 @@ SELECT SUM(value) AS waarde_spelers_chelsea FROM players WHERE club="Chelsea"
 SELECT ROUND(AVG(age)) AS gemiddeld_leeftijd_spelers FROM `players`
 -- Opdracht 10
 SELECT club, SUM(wage) AS totale_inkomen , ROUND(AVG(value)) AS gemiddelde_waarde_liverpool FROM `players` WHERE club="Liverpool"
-
-Functie	Doel
-Count()	Telt het aantal rijen dat een SQL query teruggeeft
-AVG()	Geeft een gemiddelde van de inhoud van een kolom met getallen
-SUM()	Telt de inhoud van een kolom met getallen bij elkaar op
-Min()	Geeft de kleinste waarde terug in een kolom
-Max()	Geeft de grootste waarde terug in een kolom
-ROUND()	Geeft een afgerond getal terug
